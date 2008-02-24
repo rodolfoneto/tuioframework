@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
+		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+		AE6B28C80D689DFC00AA5E62 /* TuioClient.h in Headers */ = {isa = PBXBuildFile; fileRef = AE6B28BB0D689DFC00AA5E62 /* TuioClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE6B28C90D689DFC00AA5E62 /* TuioClient.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6B28BC0D689DFC00AA5E62 /* TuioClient.m */; };
+		AE6B28CA0D689DFC00AA5E62 /* TuioCursor.h in Headers */ = {isa = PBXBuildFile; fileRef = AE6B28BD0D689DFC00AA5E62 /* TuioCursor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE6B28CB0D689DFC00AA5E62 /* TuioCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6B28BE0D689DFC00AA5E62 /* TuioCursor.m */; };
+		AE6B28CC0D689DFC00AA5E62 /* TuioObject.h in Headers */ = {isa = PBXBuildFile; fileRef = AE6B28BF0D689DFC00AA5E62 /* TuioObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE6B28CD0D689DFC00AA5E62 /* TuioObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6B28C00D689DFC00AA5E62 /* TuioObject.m */; };
+		AE6B28CE0D689DFC00AA5E62 /* WSOSCBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = AE6B28C10D689DFC00AA5E62 /* WSOSCBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE6B28CF0D689DFC00AA5E62 /* WSOSCBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6B28C20D689DFC00AA5E62 /* WSOSCBundle.m */; };
+		AE6B28D00D689DFC00AA5E62 /* WSOSCMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = AE6B28C30D689DFC00AA5E62 /* WSOSCMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE6B28D10D689DFC00AA5E62 /* WSOSCMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6B28C40D689DFC00AA5E62 /* WSOSCMessage.m */; };
+		AE6B28D20D689DFC00AA5E62 /* WSOSCPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = AE6B28C50D689DFC00AA5E62 /* WSOSCPacket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE6B28D30D689DFC00AA5E62 /* WSOSCPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6B28C60D689DFC00AA5E62 /* WSOSCPacket.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCF5E0370ADEE00C91783 /* TUIO_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TUIO_Prefix.pch; sourceTree = "<group>"; };
+		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DC2EF5B0486A6940098B216 /* TUIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TUIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE6B28BB0D689DFC00AA5E62 /* TuioClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuioClient.h; sourceTree = "<group>"; };
+		AE6B28BC0D689DFC00AA5E62 /* TuioClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuioClient.m; sourceTree = "<group>"; };
+		AE6B28BD0D689DFC00AA5E62 /* TuioCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuioCursor.h; sourceTree = "<group>"; };
+		AE6B28BE0D689DFC00AA5E62 /* TuioCursor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuioCursor.m; sourceTree = "<group>"; };
+		AE6B28BF0D689DFC00AA5E62 /* TuioObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuioObject.h; sourceTree = "<group>"; };
+		AE6B28C00D689DFC00AA5E62 /* TuioObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuioObject.m; sourceTree = "<group>"; };
+		AE6B28C10D689DFC00AA5E62 /* WSOSCBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSOSCBundle.h; sourceTree = "<group>"; };
+		AE6B28C20D689DFC00AA5E62 /* WSOSCBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSOSCBundle.m; sourceTree = "<group>"; };
+		AE6B28C30D689DFC00AA5E62 /* WSOSCMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSOSCMessage.h; sourceTree = "<group>"; };
+		AE6B28C40D689DFC00AA5E62 /* WSOSCMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSOSCMessage.m; sourceTree = "<group>"; };
+		AE6B28C50D689DFC00AA5E62 /* WSOSCPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSOSCPacket.h; sourceTree = "<group>"; };
+		AE6B28C60D689DFC00AA5E62 /* WSOSCPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSOSCPacket.m; sourceTree = "<group>"; };
+		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DC2EF560486A6940098B216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5B0486A6940098B216 /* TUIO.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* TUIO */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Source */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				089C1665FE841158C02AAC07 /* Resources */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = TUIO;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
+				1058C7B2FEA5585E11CA2CBB /* Other Frameworks */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C1665FE841158C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5A0486A6940098B216 /* Info.plist */,
+				089C1666FE841158C02AAC07 /* InfoPlist.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				AE6B28D70D689E6D00AA5E62 /* WSOSC */,
+				AE6B28BB0D689DFC00AA5E62 /* TuioClient.h */,
+				AE6B28BC0D689DFC00AA5E62 /* TuioClient.m */,
+				AE6B28BD0D689DFC00AA5E62 /* TuioCursor.h */,
+				AE6B28BE0D689DFC00AA5E62 /* TuioCursor.m */,
+				AE6B28BF0D689DFC00AA5E62 /* TuioObject.h */,
+				AE6B28C00D689DFC00AA5E62 /* TuioObject.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7B2FEA5585E11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0867D6A5FE840307C02AAC07 /* AppKit.framework */,
+				D2F7E79907B2D74100F64583 /* CoreData.framework */,
+				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF5E0370ADEE00C91783 /* TUIO_Prefix.pch */,
+			);
+			name = "Other Sources";
+			path = Source;
+			sourceTree = "<group>";
+		};
+		AE6B28D70D689E6D00AA5E62 /* WSOSC */ = {
+			isa = PBXGroup;
+			children = (
+				AE6B28C10D689DFC00AA5E62 /* WSOSCBundle.h */,
+				AE6B28C20D689DFC00AA5E62 /* WSOSCBundle.m */,
+				AE6B28C30D689DFC00AA5E62 /* WSOSCMessage.h */,
+				AE6B28C40D689DFC00AA5E62 /* WSOSCMessage.m */,
+				AE6B28C50D689DFC00AA5E62 /* WSOSCPacket.h */,
+				AE6B28C60D689DFC00AA5E62 /* WSOSCPacket.m */,
+			);
+			path = WSOSC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8DC2EF500486A6940098B216 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6B28C80D689DFC00AA5E62 /* TuioClient.h in Headers */,
+				AE6B28CA0D689DFC00AA5E62 /* TuioCursor.h in Headers */,
+				AE6B28CC0D689DFC00AA5E62 /* TuioObject.h in Headers */,
+				AE6B28CE0D689DFC00AA5E62 /* WSOSCBundle.h in Headers */,
+				AE6B28D00D689DFC00AA5E62 /* WSOSCMessage.h in Headers */,
+				AE6B28D20D689DFC00AA5E62 /* WSOSCPacket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8DC2EF4F0486A6940098B216 /* TUIO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "TUIO" */;
+			buildPhases = (
+				8DC2EF500486A6940098B216 /* Headers */,
+				8DC2EF520486A6940098B216 /* Resources */,
+				8DC2EF540486A6940098B216 /* Sources */,
+				8DC2EF560486A6940098B216 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TUIO;
+			productInstallPath = "$(HOME)/Library/Frameworks";
+			productName = TUIO;
+			productReference = 8DC2EF5B0486A6940098B216 /* TUIO.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = NO;
+			};
+			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "TUIO" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* TUIO */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DC2EF4F0486A6940098B216 /* TUIO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DC2EF520486A6940098B216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DC2EF540486A6940098B216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6B28C90D689DFC00AA5E62 /* TuioClient.m in Sources */,
+				AE6B28CB0D689DFC00AA5E62 /* TuioCursor.m in Sources */,
+				AE6B28CD0D689DFC00AA5E62 /* TuioObject.m in Sources */,
+				AE6B28CF0D689DFC00AA5E62 /* WSOSCBundle.m in Sources */,
+				AE6B28D10D689DFC00AA5E62 /* WSOSCMessage.m in Sources */,
+				AE6B28D30D689DFC00AA5E62 /* WSOSCPacket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C1666FE841158C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1667FE841158C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91AE08733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Source/TUIO_Prefix.pch;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks/";
+				PRODUCT_NAME = TUIO;
+				WRAPPER_EXTENSION = framework;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DEB91AF08733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TUIO_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks/";
+				PRODUCT_NAME = TUIO;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		1DEB91B208733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH)";
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		1DEB91B308733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					ppc,
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+				VALID_ARCHS = "ppc64 ppc7400 ppc970 i386 x86_64 ppc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "TUIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91AE08733DA50010E9CD /* Debug */,
+				1DEB91AF08733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "TUIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91B208733DA50010E9CD /* Debug */,
+				1DEB91B308733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
