@@ -1,0 +1,1 @@
+A framework written in pure Objective-C created to receive TUIO messages for multi-touch applications. It uses a modified version of the WSOSC framework to parse the Open Sound Control packets.
